@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>NBA React</title>
+   
+    <style>
+     
+     body {
+       background-color: #CCD0D3;
+     }
+     .card {
+       max-width: 300px;
+     
+     }
+
+     .card-body {
+       padding: 2px
+     }
+
+    
+     .player-name {
+       font-weight: bold;
+      
+       margin: 0 auto;
+     }
+
+     .player-text{
+    
+       font-size: 10px;
+       margin: 0 auto;
+     }
+
+      #screen-loader {
+        width: 100vw;
+        opacity: 0.5;
+        background-color: #fff;
+        position: fixed;
+        top: 0;
+        left: 0;
+        align-content: center;
+        justify-content: center;
+        z-index: 99;
+        height: 100vh;
+      }
+ 
+      #loading-area {
+        width: 100%;
+        margin: 20% auto;
+        z-index: 100;
+      }
+
+      #page-loading {
+        width: 100%;
+        margin: 0 auto;
+        z-index: 101
+      }
+
+      #sub-header {
+        font-size: 10px;
+        color: #fff
+      }
+
+     
+
+      #card-loader {
+        z-index: 99;
+        position: absolute;
+        width: 100%;
+        opacity: 0.3;
+        background-color: #fff;
+        margin: 0 auto;
+      }
+
+      #card-loading {
+        margin: 0 auto;
+        width: 50px;
+      }
+     
+    </style>
+  </head>
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"></div>
+   
+  </body>
+</html>

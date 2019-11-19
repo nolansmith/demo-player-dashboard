@@ -1,0 +1,52 @@
+{
+  "name": "demo-player-dashboard",
+  "description": "Simple React App Managing NBA Players Cards From a Server",
+  "scripts": {
+    "start:dev": "webpack-dev-server --config webpack.dev.config.js --port 3000",
+    "pack": "webpack --config webpack.prod.config.js && cp -r ./assets/* ./dist",
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "axios": "^0.19.0",
+    "bootstrap": "^4.3.1",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "jquery": "^3.4.1",
+    "json-server": "^0.15.1",
+    "popper.js": "^1.15.0",
+    "prop-types": "15.7.2",
+    "react": "16.8.4",
+    "react-dom": "16.8.4",
+    "react-icons": "^3.7.0",
+    "react-notification-badge": "^1.5.0",
+    "react-redux": "6.0.1",
+    "react-spinners": "^0.5.4",
+    "redux": "4.0.1",
+    "redux-thunk": "^2.3.0"
+  },
+  "devDependencies": {
+    "@babel/core": "7.3.4",
+    "babel-eslint": "10.0.1",
+    "babel-loader": "8.0.5",
+    "babel-preset-react-app": "7.0.2",
+    "clean-webpack-plugin": "^3.0.0",
+    "concurrently": "^4.1.2",
+    "css-loader": "2.1.1",
+    "cssnano": "4.1.10",
+    "html-webpack-plugin": "^3.2.0",
+    "postcss-loader": "3.0.0",
+    "style-loader": "0.23.1",
+    "webpack": "4.29.6",
+    "webpack-bundle-analyzer": "^3.3.2",
+    "webpack-cli": "3.3.0",
+    "webpack-dev-server": "3.2.1"
+  },
+  "engines": {
+    "node": ">=8"
+  },
+  "babel": {
+    "presets": [
+      "babel-preset-react-app"
+    ]
+  }
+}
