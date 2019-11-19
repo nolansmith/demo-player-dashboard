@@ -7,5 +7,4 @@ node_modules
 !.elasticbeanstalk/*.global.yml
 .elasticbeanstalk
 .env
-dist
 .ebignore

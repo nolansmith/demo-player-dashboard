@@ -28,7 +28,7 @@ Order Favorites Via Drag and Drop (While viewing favorites)
 
 
 # Application URL (remote)
-https://boiling-inlet-44327.herokuapp.com/
+https://nbaplayerapp.herokuapp.com/
 
 
 # API Server
