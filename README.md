@@ -32,5 +32,5 @@ https://nbaplayerapp.herokuapp.com/
 
 
 # API Server
-http://nba-player-api-dev.us-east-1.elasticbeanstalk.com/
+https://nba-player-api-dev.us-east-1.elasticbeanstalk.com/
 
