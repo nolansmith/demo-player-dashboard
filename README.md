@@ -28,9 +28,9 @@ Order Favorites Via Drag and Drop (While viewing favorites)
 
 
 # Application URL (remote)
-https://nbaplayerapp.herokuapp.com/
+http://nbaplayerapp.herokuapp.com/
 
 
 # API Server
-https://nba-player-api-dev.us-east-1.elasticbeanstalk.com/
+http://nba-player-api-dev.us-east-1.elasticbeanstalk.com/
 

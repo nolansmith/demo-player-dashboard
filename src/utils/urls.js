@@ -1,6 +1,6 @@
 /* just some handy reusable URLs for the project */
 
-const API_URL = `https://nba-player-api-dev.us-east-1.elasticbeanstalk.com`;
+const API_URL = `http://nba-player-api-dev.us-east-1.elasticbeanstalk.com`;
 
 export default {
   favorites: `${API_URL}/favorites`,
